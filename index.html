@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Form Validator</title>
+</head>
+<body>
+
+    <div class="form-box-wrapper">
+        <h1 class="register-title">Register with us</h1>
+
+        <div class="input-wrapper">
+            <label for="text">Username</label>
+            <input class="input username username-input" type="text" placeholder="Enter username">
+            <small class="username-small validation-msg">Your name must have at least 5 characters</small>
+
+            <label for="email">Email</label>
+            <input class="input email" type="email" name="email" placeholder="Enter email">
+            <small  class="email-small validation-msg">Please enter a valid email</small>
+
+            <label for="password">Password</label>
+            <input class="input psw" type="password" name="password" placeholder="Enter password">
+            <small class="password-small validation-msg">Your password must have at least 8 characters</small>
+
+            <label for="password">Confirm Password</label>
+            <input class="input confirm-psw" type="password" name="password" placeholder="Confirm password">
+            <small class="confirmpsw-small validation-msg">This password doesn't match with the previous one</small>
+
+            <p class="submit-btn">Submit</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
